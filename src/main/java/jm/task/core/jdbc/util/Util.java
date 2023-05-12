@@ -7,7 +7,7 @@ public class Util {
     private static final String PASSWORD = "androot";
     private static final String URL = "jdbc:mysql://localhost:3306/moreusers";
 
-    public static Connection main() {
+    public static Connection getConnection() {
 
         // реализуйте настройку соеденения с БД
         Connection connection = null;
